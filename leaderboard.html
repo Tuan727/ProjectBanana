@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BananaClicker</title>
-        <link rel="stylesheet" href="style-game.css">
+        <link rel="stylesheet" href="style-leaderboard.css">
         <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
         <meta name="Author" content="Tuan">
     </head>
@@ -15,23 +15,25 @@
                 <nav id="nav-bar">
                     <a href="/index.html"><img src="/resources/favicon.png" alt="logo" height="80px" id="logo"></a>
                     <ul class="nav-list">
-                        <li><a href="/index.html" class="nav-item">Home</a></li>
-                        <li><a href="#" class="nav-item">Menu</a></li>
-                        <li><a href="leaderboard.html" class="nav-item">Leaderboard</a></li>
-                        <li><a href="#" class="nav-item">BUTTON 4</a></li>
+                        <li><a href="/game.html" class="nav-item">Return to game</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main>
-            <div id="main-screen">
-                <div id="money">
-                    <img src="/resources/coin.png" alt="coin" height="50px">
-                    <h2 id="click">0</h2>
-                </div>
-                <div id="click-banana">
-                    <img src="resources/banana.png" alt="banana" height="300px" width="300px" onclick="hi()">
-                </div>
+        <main id="leaderboard">
+            <h1 id="leaderboard-title">Leaderboard</h1>
+            <div id="ranking">
+                <h2 class="rank-item">1. </h2>
+                <h2 class="rank-item">2. </h2>
+                <h2 class="rank-item">3. </h2>
+                <h2 class="rank-item">4. </h2>
+                <h2 class="rank-item">5. </h2>
+                <h2 class="rank-item">6. </h2>
+                <h2 class="rank-item">7. </h2>
+                <h2 class="rank-item">8. </h2>
+                <h2 class="rank-item">9. </h2>
+                <h2 class="rank-item">10. </h2>
+                <h2 class="rank-item">Your ranking: </h2>
             </div>
         </main>
         <footer>
@@ -45,6 +47,5 @@
                 </nav>
             </div>
         </footer>
-        <script src="game.js"></script>
     </body>
 </html>

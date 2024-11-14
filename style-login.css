@@ -1,0 +1,65 @@
+#nav {
+    display: flex;
+    width: 100%;
+    
+}
+h1 {
+    margin-left: 31%;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: larger;
+}
+
+#return {
+    margin-left:2%;
+}
+
+input[type="text"]
+{
+    font-size:35px;
+}
+input[type="password"]
+{
+    font-size:35px;
+}
+input[type="email"]
+{
+    font-size:35px;
+}
+
+.form {
+    text-align: center;
+    display: block;
+}
+::placeholder {
+    color: rgba(191, 191, 191, 0.704);
+    opacity: 1; /* Firefox */
+    font-size:30px;
+    font-weight: 100;
+    padding-left: 2%;
+}
+input {
+    height: 50px;
+}
+#forget {
+    margin-left: 30%;
+    font-size: larger;
+}
+#button {
+    height: 50px;
+    margin-top: 2%;
+    font-size: 25px;
+    width: 250px;
+}
+#signup {
+    margin-left: 23%;
+    font-size: larger;
+}
+#login {
+    margin-left: 65%;
+    font-size: larger;
+}

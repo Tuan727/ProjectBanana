@@ -79,3 +79,11 @@ body {
 #money {
     display: flex;
 }
+#leaderboard {
+    display: block;
+    text-align: center;
+}
+#leaderboard-title {
+    margin-top: 10%;
+    font-size: 50px;
+}
