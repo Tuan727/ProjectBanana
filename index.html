@@ -4,36 +4,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BananaClicker</title>
-        <link rel="stylesheet" href="style-game.css">
+        <link rel="stylesheet" href="style-home.css">
         <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
         <meta name="Author" content="Tuan">
-        <script type="module" src="script.js"></script>
+        <meta name="keywords" content="Banana, Banana Clicker, Banana click, banana, banana clicker, bananaclicker, banana steam, bananaclick, clicker, clicker game">
     </head>
 
     <body>
         <header>
             <div>
                 <nav id="nav-bar">
-                    <a href="/home.html"><img src="/resources/favicon.png" alt="logo" height="80px" id="logo"></a>
+                    <a href="#"><img src="/resources/favicon.png" alt="logo" height="80px" id="logo"></a>
                     <ul class="nav-list">
-                        <li><a href="/home.html" class="nav-item">Home</a></li>
-                        <li><a href="#" class="nav-item">BUTTON 2</a></li>
-                        <li><a href="#" class="nav-item">BUTTON 3</a></li>
-                        <li><a href="#" class="nav-item">BUTTON 4</a></li>
+                        <li><a href="/game.html" class="nav-item" target="_self">Play</a></li>
+                        <li><a href="#" class="nav-item">Log in</a></li>
+                        <li><a href="#" class="nav-item">Sign up</a></li>
+                        <li><a href="/about.html" class="nav-item">About</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <div id="main-screen">
-                <div id="money">
-                    <img src="/resources/coin.png" alt="coin" height="50px">
-                    <h2 id="click">0</h2>
-                </div>
-                <div id="click-banana">
-                    <img src="resources/banana.png" alt="banana" height="300px" width="300px" onclick="hi()">
-                </div>
-            </div>
+            <div id="update-log">
+                <table id="update">
+                    <thead>
+                        <tr>
+                            <th>What's new</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>
+                            <h2>Version 1.0</h2>
+                            <p>Currently in beta testing, more coming soon.</p>
+                        </td></tr>
+                    </tbody>
+                </table>
+            </div>                              
         </main>
         <footer>
             <div>
@@ -46,6 +52,5 @@
                 </nav>
             </div>
         </footer>
-        <script src="game.js"></script>
     </body>
 </html>
