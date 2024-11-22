@@ -1,6 +1,7 @@
 let text=document.getElementById("click");
 let a = 0;
 let img = document.getElementById("bnn");
+console.log(window.location.href);
 function hi() {
     a+=1;
     text.innerHTML=a;
