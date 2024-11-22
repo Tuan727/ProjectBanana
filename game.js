@@ -6,6 +6,10 @@ if (window.location.href==="https://bananaclick.vercel.app/game-login.html") {
 }
 function hi() {
     a+=1;
+    if (a==2000000000) {
+        alert("Congratulation! You have wasted your time! Now enjoy clicking back");
+        a=0;
+    }
     text.innerHTML=a;
 }
 function abc() {
