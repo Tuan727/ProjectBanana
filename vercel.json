@@ -5,7 +5,7 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/login.php" }
+      { "src": "/(.*)",  "dest": "/api/login.php" },
       { "src": "/(.*)",  "dest": "/api/signup.php" }
     ]
   }
