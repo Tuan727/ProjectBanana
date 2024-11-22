@@ -1,7 +1,9 @@
 let text=document.getElementById("click");
 let a = 0;
 let img = document.getElementById("bnn");
-console.log(window.location.href);
+if (window.location.href==="https://bananaclick.vercel.app/game-login.html") {
+    a = Request.QueryString["a"] ?? string.Empty;
+}
 function hi() {
     a+=1;
     text.innerHTML=a;
