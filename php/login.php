@@ -5,18 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BananaClicker</title>
         <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="style-login.css">
+        <link rel="stylesheet" href="../style-login.css">
         <meta name="Author" content="Tuan">
         <meta name="google-site-verification" content="GEN4y151TPprmkkqrGcx51E4LCkkpYSu3Hs9iWro9EY" />
         <meta name="keywords" content="Banana, Banana Clicker, Banana click, banana, banana clicker, bananaclicker, banana steam, bananaclick, clicker, clicker game, banana click, banana click vercel, bananaclick vercel, banana click by tuan">
     </head>
     <body>
         <div id="nav">
-            <a href="index.html" id="return">Return to main page</a>
+            <a href="../index.html" id="return">Return to main page</a>
             <h1>Log in</h1>
         </div>
         <div class="form">
-            <form action="login.php" method="get">
+            <form action="https://httpbin.org/post" method="post">
                 <input type="text" placeholder="Username" name="user" required class="textinput" size="30">
                 <br>
                 <br>
@@ -25,6 +25,7 @@
         </div>
                 <br>
                 <a href="#" id="forget">Forget password?</a>
+                <a href="signup.php" id="signup">Sign up</a>
                 <br>
                 <div class="form">
                     <button type="submit" id="button">Log in</button>

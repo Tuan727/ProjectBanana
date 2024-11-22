@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BananaClicker</title>
-        <link rel="stylesheet" href="style-login.css">
+        <link rel="stylesheet" href="../style-login.css">
         <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
         <meta name="Author" content="Tuan">
         <meta name="google-site-verification" content="GEN4y151TPprmkkqrGcx51E4LCkkpYSu3Hs9iWro9EY" />
@@ -12,7 +12,7 @@
     </head>
     <body>
         <div id="nav">
-            <a href="index.html" id="return">Return to main page</a>
+            <a href="../index.html" id="return">Return to main page</a>
             <h1>Sign up</h1>
         </div>
         <div class="form">
@@ -26,7 +26,7 @@
                 <input type="email" name="mail" placeholder="Email" class="textinput" size="30">
         </div>
                 <br>
-                <a href="login.html" id="login">Log in</a>
+                <a href="login.php" id="login">Log in</a>
                 <br>
                 <div class="form">
                     <button type="submit" id="button">Sign up</button>
