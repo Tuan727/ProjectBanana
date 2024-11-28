@@ -14,9 +14,11 @@ function hi() {
 }
 function abc() {
     if (img.getAttribute("src") == "/resources/banana.png") {
-        img.src = "/resources/banana2.png"
+        img.src = "/resources/banana2.png";
+        document.getElementById("theme").setAttribute("href","style-game1.css");
     }
     else {
-        img.src = "/resources/banana.png"
+        img.src = "/resources/banana.png";
+        document.getElementById("theme").setAttribute("href","style-game.css");
     }
 }

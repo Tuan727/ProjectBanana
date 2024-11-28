@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BananaClicker</title>
-        <link rel="stylesheet" href="style-game.css">
+        <link id="theme" rel="stylesheet" href="style-game.css">
         <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
         <meta name="Author" content="Tuan">
     </head>
@@ -25,11 +25,12 @@
             </div>
         </header>
         <main>
+            <div id="money">
+                <img src="/resources/coin.png" alt="coin" height="50px">
+                <h2 id="click">0</h2>
+            </div>
             <div id="main-screen">
-                <div id="money">
-                    <img src="/resources/coin.png" alt="coin" height="50px">
-                    <h2 id="click">0</h2>
-                </div>
+                
                 <div id="click-banana">
                     <img src="/resources/banana.png" alt="banana" height="300px" width="300px" onclick="hi()" id="bnn">
                 </div>
