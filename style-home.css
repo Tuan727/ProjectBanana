@@ -7,7 +7,7 @@ body {
 #nav-bar {
     background-color: #FF8C42;
     display: flex;
-    position: fixed;
+    position: absolute;
     height: auto;
     width: 100%;
     top: 0;
@@ -68,7 +68,7 @@ body {
 }
 
 #update-log {
-    margin-top: 200px;
+    margin-top: 2%;
 }
 #update {
     height: 500px;
@@ -104,4 +104,30 @@ p {
     height: 80%;
     width: 80%;
     margin-left: 7%;
+}
+#banner {
+    margin-top: 8%;
+    margin-left: -0.5%;
+    border: solid 5px black;
+    background-color:#ffea8f;
+    width: 100.5%;
+    overflow: hidden;
+    height: 100px;
+    white-space: nowrap;
+}
+
+#banner-text {
+    display: inline-block;
+    position:absolute;
+    font-size: 24px;
+    font-weight: bold;
+    animation: moveText 6s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
 }
